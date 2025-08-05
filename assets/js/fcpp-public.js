@@ -1,0 +1,2 @@
+(function($){'use strict';$(document).ready(function(){$("#fcpp-show-glyphs").on("click",function(e){e.preventDefault();var glyphContent=$("#fcpp-glyph-generate").html();if(!glyphContent){glyphContent="<p>Glyph không có dữ liệu.</p>"}
+var $themePopup=$(".popup-fc-wrapper").first();$themePopup.find(".popup-fc-inner").html(glyphContent);$themePopup.find(".popup-fc-container").fadeIn().addClass("active")})})})(jQuery)
