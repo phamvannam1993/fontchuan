@@ -1,300 +1,45 @@
-<div data-elementor-type="footer" data-elementor-id="33" class="elementor elementor-33 elementor-location-footer" data-elementor-post-type="elementor_library">
-    <footer class="elementor-element elementor-element-f844e55 e-flex e-con-boxed e-con e-parent" data-id="f844e55" data-element_type="container" data-settings='{"background_background":"classic"}'>
-        <div class="e-con-inner">
-            <div class="elementor-element elementor-element-0c100b0 e-con-full e-flex e-con e-child" data-id="0c100b0" data-element_type="container">
-                <div class="elementor-element elementor-element-603eefe e-con-full e-flex e-con e-child" data-id="603eefe" data-element_type="container">
-                    <div class="elementor-element elementor-element-15c09df e-con-full e-flex e-con e-child" data-id="15c09df" data-element_type="container">
-                        <div class="elementor-element elementor-element-bda120e elementor-widget elementor-widget-image" data-id="bda120e" data-element_type="widget" data-widget_type="image.default">
-                            <div class="elementor-widget-container">
-                                <img
-                                    width="2048"
-                                    height="2048"
-                                    src="/assets/images/avatar-fontchuan.jpg"
-                                    class="attachment-full size-full wp-image-2802"
-                                    alt="Avatar Font Chuẩn"
-                                    data-lazy-src="/assets/images/avatar-fontchuan.jpg"
-                                />
-                                <noscript>
-                                    <img width="2048" height="2048" src="/assets/images/avatar-fontchuan.jpg" class="attachment-full size-full wp-image-2802" alt="Avatar Font Chuẩn" />
-                                </noscript>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="elementor-element elementor-element-b895c2f e-con-full e-flex e-con e-child" data-id="b895c2f" data-element_type="container">
-                        <div class="elementor-element elementor-element-b9fcf21 elementor-widget elementor-widget-text-editor" data-id="b9fcf21" data-element_type="widget" data-widget_type="text-editor.default">
-                            <div class="elementor-widget-container">
-                                <p>
-                                    Font Chuẩn là một không gian trực tuyến lý tưởng, nơi các thành viên có thể chia sẻ miễn phí font chữ đẹp, trao đổi kiến thức và kinh nghiệm trong lĩnh vực thiết kế.<br />
-                                    Với mục tiêu cung cấp thông tin, gợi ý, và nguồn cảm hứng từ cộng đồng, Font Chuẩn giúp mọi người dễ dàng khám phá và tìm kiếm các kiểu chữ phù hợp với các nhu cầu sáng tạo, các tài nguyên đồ họa
-                                    từ thiết kế đồ họa, in ấn cho đến sáng tạo nội dung.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<div class="bgfooter">
+   <link rel="stylesheet" href="/assets/css/footer.css">
+   <section id="footer">
+      <div class="container">
+         <div class="row mt-4">
+            <div class="col-12">
+               <div class="logo-foot text-center mb-3">
+                  <p class="h5  fw-bold slogan-ft">------ Những hạnh phúc bất tận ------</p>
+               </div>
+               <div class="menu-foot mb-2">
+                  <a href="#">About Us</a>
+                  <a href="#">Contact</a>
+                  <a href="#">Terms of Service</a>
+                  <a href="#">Privacy Policy</a>
+                  <a href="#">FAQ</a>
+               </div>
+               <center class="px-2">
+                  <a class="logo-ft" href="/"><img width="180" height="23" src="/assets/images/logo-fontchuan-v1.png" alt="logo-ft" data-lazy-src="/assets/images/logo-fontchuan-v1.png" data-ll-status="loaded" class="entered lazyloaded"><noscript><img width="180" height="23" src="/assets/images/logo-fontchuan-v1.png" alt="logo-ft"></noscript></a>
+                  <p class="mt-2"><em>NaltiFonts hiện tại đang là một dự án được phát triển cho cộng đồng thiết kế đồ họa hoặc thiết kế ứng dụng. Fonts Việt hóa giúp đảm bảo mức độ hiển thị chính xác không bị lỗi dấu, mất nét mang tính độc đáo trong thiết kế giúp bạn truyền tải thông điệp hiệu quả với phiên bản V1.2.41.</em></p>
+                  <p class="px-2"><strong>Email:</strong> nalticons.org@gmail.com | <strong>Tel &amp; Zalo:</strong> 056 8.112.611</p>
+                  <div class="social-icons">
+                     <ul>
+                        <li><a href="#" target="_blank" data-testid="riotbar:footer:social-facebook" class=" UMGQm8t1HQXDiMISgy7E-A== link-facebook link-social"><svg viewBox="0 0 15 15">
+                                 <path d="M15 7.54A7.5 7.5 0 1 0 6.33 15V9.73h-1.9V7.54h1.9V5.91a2.65 2.65 0 0 1 2.83-3 12.09 12.09 0 0 1 1.68.14v1.86H9.9a1.09 1.09 0 0 0-1.23 1.18V7.5h2.08l-.33 2.19H8.67v5.27A7.54 7.54 0 0 0 15 7.54Z"></path>
+                              </svg></a></li>
+                        <li><a href="#" target="_blank" data-testid="riotbar:footer:social-instagram" class=" UMGQm8t1HQXDiMISgy7E-A== link-instagram link-social"><svg viewBox="0 0 13.26 13.3">
+                                 <path d="M6.67 3.24a3.43 3.43 0 1 0 3.42 3.44 3.43 3.43 0 0 0-3.42-3.44Zm0 5.65a2.22 2.22 0 1 1 2.22-2.22 2.21 2.21 0 0 1-2.22 2.22Z" transform="translate(-.04 .05)" style="fill:#000;fill-rule:evenodd"></path>
+                                 <path d="M11 3.08a.8.8 0 1 1-.8-.8.8.8 0 0 1 .8.8Z" transform="translate(-.04 .05)" style="fill:#000"></path>
+                                 <path d="M6.67 0H3.92A5 5 0 0 0 2.3.31a3.31 3.31 0 0 0-1.18.77 3.31 3.31 0 0 0-.77 1.18A5.29 5.29 0 0 0 0 3.88v5.5A5.22 5.22 0 0 0 .35 11a3.35 3.35 0 0 0 .77 1.19 3.42 3.42 0 0 0 1.18.76 4.75 4.75 0 0 0 1.62.31h5.5a4.75 4.75 0 0 0 1.58-.32 3.15 3.15 0 0 0 1.18-.76A3.35 3.35 0 0 0 13 11a5 5 0 0 0 .31-1.61V3.88A5 5 0 0 0 13 2.26a3.46 3.46 0 0 0-2-2A5 5 0 0 0 9.37 0a26.88 26.88 0 0 1-2.7 0Zm0 1.2h2.69a3.78 3.78 0 0 1 1.24.23 2.21 2.21 0 0 1 1.27 1.27 3.67 3.67 0 0 1 .23 1.23v5.39a3.78 3.78 0 0 1-.23 1.24 2.21 2.21 0 0 1-1.27 1.27 3.77 3.77 0 0 1-1.24.22H4a3.77 3.77 0 0 1-1.24-.22 2.21 2.21 0 0 1-1.27-1.27 3.78 3.78 0 0 1-.23-1.24V3.93a3.67 3.67 0 0 1 .21-1.23 2.21 2.21 0 0 1 1.27-1.27A3.78 3.78 0 0 1 4 1.2c.68.01.89 0 2.67 0Z" transform="translate(-.04 .05)" style="fill:#000;fill-rule:evenodd"></path>
+                              </svg></a></li>
+                        <li><a href="#" target="_blank" data-testid="riotbar:footer:social-twitter" class=" UMGQm8t1HQXDiMISgy7E-A== link-twitter link-social"><svg viewBox="0 0 1200 1227">
+                                 <path d="M714.163 519.284 1160.89 0h-105.86L667.137 450.887 357.328 0H0l468.492 681.821L0 1226.37h105.866l409.625-476.152 327.181 476.152H1200L714.137 519.284h.026ZM569.165 687.828l-47.468-67.894-377.686-540.24h162.604l304.797 435.991 47.468 67.894 396.2 566.721H892.476L569.165 687.854v-.026Z"></path>
+                              </svg></a></li>
+                        <li><a href="#" target="_blank" data-testid="riotbar:footer:social-youtube" class=" UMGQm8t1HQXDiMISgy7E-A== link-youtube link-social"><svg viewBox="0 0 16.67 11.67">
+                                 <path d="M14.85.36a2.08 2.08 0 0 1 1.47 1.47 20.5 20.5 0 0 1 .34 4 22.19 22.19 0 0 1-.34 4 2.1 2.1 0 0 1-1.47 1.47 51.13 51.13 0 0 1-6.52.34 48.46 48.46 0 0 1-6.52-.36A2.07 2.07 0 0 1 .34 9.82a23.82 23.82 0 0 1 0-8A2.11 2.11 0 0 1 1.81.34a49.68 49.68 0 0 1 6.52-.35 48.31 48.31 0 0 1 6.52.37Zm-3.84 5.48-4.34 2.5v-5Z"></path>
+                              </svg></a></li>
+                     </ul>
+                  </div>
+               </center>
             </div>
-            <div class="elementor-element elementor-element-afde545 e-con-full e-flex e-con e-child" data-id="afde545" data-element_type="container">
-                <div class="elementor-element elementor-element-083d8b0 e-con-full e-flex e-con e-child" data-id="083d8b0" data-element_type="container">
-                    <div class="elementor-element elementor-element-ffacd0b e-con-full e-flex e-con e-child" data-id="ffacd0b" data-element_type="container">
-                        <div class="elementor-element elementor-element-6f9884c elementor-widget elementor-widget-heading" data-id="6f9884c" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-heading-title elementor-size-default">THÔNG TIN</div>
-                            </div>
-                        </div>
-                        <div
-                            class="elementor-element elementor-element-0022dfb elementor-nav-menu__align-start elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu"
-                            data-id="0022dfb"
-                            data-element_type="widget"
-                            data-settings='{"layout":"vertical","submenu_icon":{"value":"&lt;i class=\"fas fa-caret-down\"&gt;&lt;\/i&gt;","library":"fa-solid"}}'
-                            data-widget_type="nav-menu.default"
-                        >
-                            <div class="elementor-widget-container">
-                                <nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
-                                    <ul id="menu-1-0022dfb" class="elementor-nav-menu sm-vertical" data-smartmenus-id="17541019750148882">
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286"><a href="https://fontchuan.com/ve-chung-toi/" class="elementor-item">Về chúng tôi</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-287">
-                                            <a href="https://fontchuan.com/ve-chung-toi/chinh-sach-bao-mat/" class="elementor-item">Chính sách bảo mật</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-289">
-                                            <a href="https://fontchuan.com/ve-chung-toi/dieu-khoan-su-dung/" class="elementor-item">Điều khoản sử dụng</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-339">
-                                            <a href="https://fontchuan.com/ve-chung-toi/mien-tru-trach-nhiem/" class="elementor-item">Miễn trừ trách nhiệm</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-487">
-                                            <a href="https://fontchuan.com/thanh-vien/quy-dinh-thanh-vien/" class="elementor-item">Quy định thành viên</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486">
-                                            <a href="https://fontchuan.com/thanh-vien/chinh-sach-thanh-vien-premium/" class="elementor-item">Chính sách thành viên Premium</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                                <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
-                                    <ul id="menu-2-0022dfb" class="elementor-nav-menu sm-vertical" data-smartmenus-id="175410197501437">
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286"><a href="https://fontchuan.com/ve-chung-toi/" class="elementor-item" tabindex="-1">Về chúng tôi</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-287">
-                                            <a href="https://fontchuan.com/ve-chung-toi/chinh-sach-bao-mat/" class="elementor-item" tabindex="-1">Chính sách bảo mật</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-289">
-                                            <a href="https://fontchuan.com/ve-chung-toi/dieu-khoan-su-dung/" class="elementor-item" tabindex="-1">Điều khoản sử dụng</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-339">
-                                            <a href="https://fontchuan.com/ve-chung-toi/mien-tru-trach-nhiem/" class="elementor-item" tabindex="-1">Miễn trừ trách nhiệm</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-487">
-                                            <a href="https://fontchuan.com/thanh-vien/quy-dinh-thanh-vien/" class="elementor-item" tabindex="-1">Quy định thành viên</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486">
-                                            <a href="https://fontchuan.com/thanh-vien/chinh-sach-thanh-vien-premium/" class="elementor-item" tabindex="-1">Chính sách thành viên Premium</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-5ba0f03 elementor-widget elementor-widget-text-editor" data-id="5ba0f03" data-element_type="widget" data-widget_type="text-editor.default">
-                            <div class="elementor-widget-container">
-                                <p>
-                                    <strong>Liên hệ hoặc hợp tác vui lòng nhắn tin qua Fanpage: <a href="https://m.me/fontchuan" target="_blank" rel="noopener">m.me/fontchuan</a></strong>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-d43e35a elementor-widget elementor-widget-html" data-id="d43e35a" data-element_type="widget" data-widget_type="html.default">
-                            <div class="elementor-widget-container">
-                                <div id="mabaomat0" data-label="ID hỗ trợ" class="security-container">
-                                    <button class="security-custom"><div>ID hỗ trợ</div></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="elementor-element elementor-element-bfc7287 e-con-full e-flex e-con e-child" data-id="bfc7287" data-element_type="container">
-                        <div class="elementor-element elementor-element-f576b56 elementor-widget elementor-widget-heading" data-id="f576b56" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-heading-title elementor-size-default">HỖ TRỢ &amp; CỘNG ĐỒNG</div>
-                            </div>
-                        </div>
-                        <div
-                            class="elementor-element elementor-element-b3a25a0 elementor-nav-menu__align-start elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu"
-                            data-id="b3a25a0"
-                            data-element_type="widget"
-                            data-settings='{"layout":"vertical","submenu_icon":{"value":"&lt;i class=\"fas fa-caret-down\"&gt;&lt;\/i&gt;","library":"fa-solid"}}'
-                            data-widget_type="nav-menu.default"
-                        >
-                            <div class="elementor-widget-container">
-                                <nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
-                                    <ul id="menu-1-b3a25a0" class="elementor-nav-menu sm-vertical" data-smartmenus-id="17541019750140178">
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-503">
-                                            <a href="https://fontchuan.com/tao-kieu-chu-dep/" class="elementor-item">Công cụ tạo kiểu chữ đẹp online</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3087"><a href="https://fontchuan.com/tao-kieu-chu-dep/facebook/" class="elementor-item">+ Tạo chữ kiểu FB</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2816"><a href="https://fontchuan.com/tao-kieu-chu-dep/instagram/" class="elementor-item">+ Tạo IG Font</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2741"><a href="https://fontchuan.com/blog/" class="elementor-item">Kiến thức thiết kế cần biết</a></li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-295">
-                                            <a href="https://fontchuan.com/blog/cach-cai-font-chu/" class="elementor-item">+ Hướng dẫn cài Font chữ cho máy tính</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-9854">
-                                            <a href="https://fontchuan.com/blog/tim-font-chu-bang-hinh-anh/" class="elementor-item">+ Cách tìm Font chữ bằng hình ảnh</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-9857">
-                                            <a href="https://fontchuan.com/blog/cach-viet-hoa-font-chu/" class="elementor-item">+ Cách tự Việt hóa Font chữ</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-9856">
-                                            <a href="https://fontchuan.com/blog/cach-tao-font-chu-rieng/" class="elementor-item">+ Cách tự tạo Font chữ riêng</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                                <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
-                                    <ul id="menu-2-b3a25a0" class="elementor-nav-menu sm-vertical" data-smartmenus-id="1754101975014345">
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-503">
-                                            <a href="https://fontchuan.com/tao-kieu-chu-dep/" class="elementor-item" tabindex="-1">Công cụ tạo kiểu chữ đẹp online</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3087">
-                                            <a href="https://fontchuan.com/tao-kieu-chu-dep/facebook/" class="elementor-item" tabindex="-1">+ Tạo chữ kiểu FB</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2816">
-                                            <a href="https://fontchuan.com/tao-kieu-chu-dep/instagram/" class="elementor-item" tabindex="-1">+ Tạo IG Font</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2741">
-                                            <a href="https://fontchuan.com/blog/" class="elementor-item" tabindex="-1">Kiến thức thiết kế cần biết</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-295">
-                                            <a href="https://fontchuan.com/blog/cach-cai-font-chu/" class="elementor-item" tabindex="-1">+ Hướng dẫn cài Font chữ cho máy tính</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-9854">
-                                            <a href="https://fontchuan.com/blog/tim-font-chu-bang-hinh-anh/" class="elementor-item" tabindex="-1">+ Cách tìm Font chữ bằng hình ảnh</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-9857">
-                                            <a href="https://fontchuan.com/blog/cach-viet-hoa-font-chu/" class="elementor-item" tabindex="-1">+ Cách tự Việt hóa Font chữ</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-9856">
-                                            <a href="https://fontchuan.com/blog/cach-tao-font-chu-rieng/" class="elementor-item" tabindex="-1">+ Cách tự tạo Font chữ riêng</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <div
-                            class="elementor-element elementor-element-08d2bce e-grid-align-left elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons"
-                            data-id="08d2bce"
-                            data-element_type="widget"
-                            data-widget_type="social-icons.default"
-                        >
-                            <div class="elementor-widget-container">
-                                <div class="elementor-social-icons-wrapper elementor-grid">
-                                    <span class="elementor-grid-item">
-                                        <a
-                                            class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-grow elementor-repeater-item-0842488"
-                                            href="https://www.facebook.com/fontchuan"
-                                            target="_blank"
-                                        >
-                                            <span class="elementor-screen-only">Facebook</span>
-                                            <i class="fab fa-facebook"></i>
-                                        </a>
-                                    </span>
-                                    <span class="elementor-grid-item">
-                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-x-twitter elementor-animation-grow elementor-repeater-item-66e560c" href="https://twitter.com/fontchuan" target="_blank">
-                                            <span class="elementor-screen-only">X-twitter</span>
-                                            <i class="fab fa-x-twitter"></i>
-                                        </a>
-                                    </span>
-                                    <span class="elementor-grid-item">
-                                        <a
-                                            class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-grow elementor-repeater-item-053b00d"
-                                            href="https://www.youtube.com/@fontchuan"
-                                            target="_blank"
-                                        >
-                                            <span class="elementor-screen-only">Youtube</span>
-                                            <i class="fab fa-youtube"></i>
-                                        </a>
-                                    </span>
-                                    <span class="elementor-grid-item">
-                                        <a
-                                            class="elementor-icon elementor-social-icon elementor-social-icon-linkedin-in elementor-animation-grow elementor-repeater-item-7d11713"
-                                            href="https://www.linkedin.com/company/fontchuan/posts/"
-                                            target="_blank"
-                                        >
-                                            <span class="elementor-screen-only">Linkedin-in</span>
-                                            <i class="fab fa-linkedin-in"></i>
-                                        </a>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <div class="elementor-element elementor-element-45676c3 e-flex e-con-boxed e-con e-parent" data-id="45676c3" data-element_type="container" data-settings='{"background_background":"classic"}'>
-        <div class="e-con-inner">
-            <div class="elementor-element elementor-element-826a5f2 elementor-widget elementor-widget-text-editor" data-id="826a5f2" data-element_type="widget" data-widget_type="text-editor.default">
-                <div class="elementor-widget-container">
-                    <p>
-                        Bạn có thể trích dẫn hoặc sao chép nếu dẫn nguồn © <a href="https://fontchuan.com">FontChuan.com</a><br />
-                        Website được thiết kế và phát triển bởi: Đặng Hà Designer. Quản lý bởi nhóm Font Chuẩn, những người yêu thích thiết kế và typography.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="elementor-element elementor-element-2b21191 e-flex e-con-boxed e-con e-parent" data-id="2b21191" data-element_type="container" data-settings='{"background_background":"classic"}'>
-        <div class="e-con-inner elementor-motion-effects-parent">
-            <div
-                class="elementor-element elementor-element-3d749d8 elementor-view-framed elementor-shape-rounded elementor-widget__width-auto elementor-fixed elementor-widget elementor-widget-icon elementor-motion-effects-parent"
-                data-id="3d749d8"
-                data-element_type="widget"
-                data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_opacity_range":{"unit":"%","size":"","sizes":{"start":25,"end":25}},"motion_fx_opacity_effect":"yes","motion_fx_range":"page","_position":"fixed","motion_fx_opacity_direction":"out-in","motion_fx_opacity_level":{"unit":"px","size":10,"sizes":[]},"motion_fx_devices":["desktop","tablet","mobile"]}'
-                data-widget_type="icon.default"
-            >
-                <div class="elementor-widget-container elementor-motion-effects-element" style="--e-transform-transition-duration: 100ms; opacity: 0; will-change: opacity;">
-                    <div class="elementor-icon-wrapper">
-                        <a class="elementor-icon elementor-animation-pulse-grow" href="#backtotop"> <i aria-hidden="true" class="fas fa-arrow-up"></i> </a>
-                    </div>
-                </div>
-            </div>
-            <div
-                class="elementor-element elementor-element-571fb76 e-con-full e-flex e-con e-child elementor-motion-effects-element"
-                data-id="571fb76"
-                data-element_type="container"
-                data-settings='{"background_background":"classic","position":"fixed","motion_fx_motion_fx_scrolling":"yes","motion_fx_opacity_effect":"yes","motion_fx_opacity_range":{"unit":"%","size":"","sizes":{"start":25,"end":25}},"motion_fx_range":"page","motion_fx_opacity_direction":"out-in","motion_fx_opacity_level":{"unit":"px","size":10,"sizes":[]},"motion_fx_devices":["desktop","tablet","mobile"]}'
-                style="--e-transform-transition-duration: 100ms; opacity: 0; will-change: opacity;"
-            >
-                <div class="elementor-element elementor-element-44a3f8c elementor-view-default elementor-widget elementor-widget-icon" data-id="44a3f8c" data-element_type="widget" data-widget_type="icon.default">
-                    <div class="elementor-widget-container">
-                        <div class="elementor-icon-wrapper">
-                            <div class="elementor-icon elementor-animation-pulse-grow">
-                                <i aria-hidden="true" class="fas fa-share-alt"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="elementor-element elementor-element-05fec8d elementor-share-buttons--view-icon elementor-grid-1 elementor-widget__width-initial elementor-share-buttons--shape-rounded elementor-share-buttons--skin-gradient elementor-share-buttons--color-official elementor-widget elementor-widget-share-buttons"
-                    data-id="05fec8d"
-                    data-element_type="widget"
-                    data-widget_type="share-buttons.default"
-                >
-                    <div class="elementor-widget-container">
-                        <div class="elementor-grid">
-                            <div class="elementor-grid-item">
-                                <div class="elementor-share-btn elementor-share-btn_facebook" role="button" tabindex="0" aria-label="Share on facebook">
-                                    <span class="elementor-share-btn__icon"> <i class="fab fa-facebook" aria-hidden="true"></i> </span>
-                                </div>
-                            </div>
-                            <div class="elementor-grid-item">
-                                <div class="elementor-share-btn elementor-share-btn_telegram" role="button" tabindex="0" aria-label="Share on telegram">
-                                    <span class="elementor-share-btn__icon"> <i class="fab fa-telegram" aria-hidden="true"></i> </span>
-                                </div>
-                            </div>
-                            <div class="elementor-grid-item">
-                                <div class="elementor-share-btn elementor-share-btn_email" role="button" tabindex="0" aria-label="Share on email">
-                                    <span class="elementor-share-btn__icon"> <i class="fas fa-envelope" aria-hidden="true"></i> </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+         </div>
+      </div>
+   </section>
 </div>
 <input type="hidden" id="category_id" value=<?=isset($category_id) ? $category_id : 0?>>

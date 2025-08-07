@@ -9,8 +9,6 @@
                 margin-top: 5px;
             }
         </style>
-
-        <!-- Tối ưu hóa công cụ tìm kiếm bởi Rank Math PRO - https://rankmath.com/ -->
         <title>Font Chuẩn | Tải font đẹp, phông chữ miễn phí 100%</title>
         <meta name="description" content="Bộ sưu tập hơn 1000 font việt hóa download miễn phí không giới hạn, không cần đăng ký tài khoản tại cộng đồng Font Chuẩn, thiết kế siêu đẹp, đầy đủ nhất cho ngành thiết kế đồ họa" />
         <meta name="robots" content="noindex, nofollow">

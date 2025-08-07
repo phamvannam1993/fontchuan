@@ -13,7 +13,7 @@
                 
             </div>     
 
-            <?php $this->load->view('includes/box_create_font')?>                                                
+            <?php //$this->load->view('includes/box_create_font')?>                                                
         </div>
     <?php $this->load->view('includes/footer')?>                                                
     <?php $this->load->view('includes/script')?>   

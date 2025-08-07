@@ -13,7 +13,7 @@ CREATE TABLE `categories` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 INSERT INTO `categories` (`id`, `name`, `slug`, `parent_id`, `total_font`, `created_at`, `updated_at`) VALUES (1, 'Font Display', 'font-display', 33, 836, '2025-08-03 14:51:50', '2025-08-05 07:40:50');
 INSERT INTO `categories` (`id`, `name`, `slug`, `parent_id`, `total_font`, `created_at`, `updated_at`) VALUES (2, 'Font Sans-serif', 'font-sans-serif', 33, 293, '2025-08-03 14:51:50', '2025-08-05 07:40:50');
@@ -65,7 +65,7 @@ CREATE TABLE `font_categories` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11845 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=11845 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 INSERT INTO `font_categories` (`id`, `font_id`, `category_id`, `type_id`, `created_at`, `updated_at`) VALUES (1, 2, 1, 1, '2025-08-03 14:51:50', '2025-08-03 14:51:50');
 INSERT INTO `font_categories` (`id`, `font_id`, `category_id`, `type_id`, `created_at`, `updated_at`) VALUES (2, 2, 2, 1, '2025-08-03 14:51:50', '2025-08-03 14:51:50');
@@ -11935,7 +11935,7 @@ CREATE TABLE `fonts` (
   `posted_by` varchar(45) DEFAULT NULL,
   `post_id` int DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1139 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1139 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 INSERT INTO `fonts` (`id`, `name`, `image_url`, `slug`, `content`, `text_des_1`, `text_des_2`, `dowload_link`, `created_at`, `updated_at`, `author`, `vietnamization`, `posted_by`, `post_id`) VALUES (1, 'Tải top Font Việt Hóa Canva đẹp được yêu thíc', 'assets/uploads/fonts/font-chu-viet-hoa-canva-500x375.jpg', 'tai-top-font-viet-hoa-canva-dep-duoc-yeu-thich-nhat', NULL, NULL, NULL, NULL, '2025-08-02 18:35:22', '2025-08-03 17:35:39', ' Attype-Studio', ' Tuỳn Pucca', ' Quân Nguyễn', 16835);
 INSERT INTO `fonts` (`id`, `name`, `image_url`, `slug`, `content`, `text_des_1`, `text_des_2`, `dowload_link`, `created_at`, `updated_at`, `author`, `vietnamization`, `posted_by`, `post_id`) VALUES (2, 'Font Instagram Sans Trọn Bộ (Script)', 'assets/uploads/fonts/Instagram-Sans-Script-500x375.jpg', 'font-instagram-sans-tron-bo-script', NULL, NULL, NULL, 'https://fontchuan.com/wp-content/uploads/2025/04/Instagram-Sans-Script.zip', '2025-08-02 18:35:23', '2025-08-03 17:35:40', ' Meta Platforms Inc.', ' Meta Team', ' Ánh Phạm', 13415);
@@ -13093,7 +13093,7 @@ CREATE TABLE `users` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 INSERT INTO `users` (`id`, `fullname`, `username`, `email`, `password`, `role`, `created_at`, `updated`) VALUES (1, NULL, 'admin', NULL, 'e10adc3949ba59abbe56e057f20f883e', NULL, NULL, NULL);
 
