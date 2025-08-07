@@ -153,7 +153,7 @@ class API extends CI_Controller
                 $this->updateInsertCategory($data['dung_trong_dip'], 3, $item['id']);
             }
         }
-       
+
     }
 
       // Hàm lấy nội dung từ <a>
@@ -191,6 +191,30 @@ class API extends CI_Controller
                 $this->MFontCategory->insert($dataFontCa);
             }
         }
+    }
+
+    public function getDataFont($id) {
+        $curl = curl_init();
+
+        curl_setopt_array($curl, array(
+        CURLOPT_URL => 'https://fontchuan.com/wp-admin/admin-ajax.php',
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_ENCODING => '',
+        CURLOPT_MAXREDIRS => 10,
+        CURLOPT_TIMEOUT => 0,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+        CURLOPT_CUSTOMREQUEST => 'POST',
+        CURLOPT_POSTFIELDS =>'action=fontGenrate&auth=8669abfcd9&pid='.$id.'&size=32&text="Font Chuẩn - Đây là Font được hiển thị"',
+        CURLOPT_HTTPHEADER => array(
+            'content-type: application/x-www-form-urlencoded; charset=UTF-8'
+        ),
+        ));
+
+        $response = curl_exec($curl);
+
+        curl_close($curl);
+        return $response;
     }
 
     public function getLinkDownload($id) {

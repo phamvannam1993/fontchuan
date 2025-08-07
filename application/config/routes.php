@@ -67,6 +67,8 @@ $route['admin/fonts/form/(:any)'] = 'Font/form/$1';
 $route['admin/fonts/delete/(:any)'] = 'Font/delete/$1';
 $route['admin/fonts'] = 'Font/index';
 
+$route['api/font/detail/(:any)'] = 'Font/getDetail/$1';
+
 $route['api/export-db'] = 'Database/exportDB';
 
 $route['admin/dashboard'] = 'Admin/dashboard';

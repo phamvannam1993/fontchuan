@@ -31,7 +31,7 @@ class MFont extends CI_Model {
     }
 
     public function getOneBy($params = []) {
-        $query = $this->db->select('*');
+        $query = $this->db->select('id, name, image_url, slug, post_id, posted_by, author, vietnamization, created_at, dowload_link, updated_at');
         if(isset($params["id"])) {
             $query = $query->where(["id" => $params["id"]]);
         }
@@ -43,7 +43,7 @@ class MFont extends CI_Model {
     }
 
     public function get($params = []) {
-        $this->db->select('*');
+        $this->db->select('id, name, image_url, slug, post_id, posted_by, author, vietnamization, created_at, dowload_link, updated_at');
         $this->db->from($this->table);
         if(isset($params["limit"]) && isset($params["offset"]))  {
             $this->db->limit($params["limit"], $params["offset"]);
@@ -51,7 +51,7 @@ class MFont extends CI_Model {
         if(isset($params["search"]))  {
             $this->db->like("name", $params["search"]);
         }
-        $this->db->order_by('updated_at', 'ASC');
+        $this->db->order_by('id', 'ASC');
         return $this->db->get()->result_array();
     }
     public function get_by($params) {

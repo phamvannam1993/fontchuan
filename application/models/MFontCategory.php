@@ -118,4 +118,30 @@ class MFontCategory extends CI_Model {
         $query = $this->db->get();
         return $query->result_array();
     }
+
+    public function get_fonts($params = []) {
+        $limit = $params['limit'];
+        $offset = $params['offset'];
+        $this->db->select('categories.*, font_categories.type_id as type_id');
+        $this->db->from('fonts');
+        $this->db->join('font_categories', 'font_categories.font_id = fonts.id');
+        $this->db->join('categories', 'categories.id = font_categories.category_id');
+      
+        if (isset($params['category_id'])) {
+            $this->db->where('font_categories.category_id', $params['category_id']);
+        }
+
+        if (isset($params['font_id'])) {
+            $this->db->where('font_categories.font_id', $params['font_id']);
+        }
+
+        if (isset($params['search'])) {
+            $this->db->like("fonts.name", $params["search"]);
+        }
+    
+        $this->db->limit($limit, $offset);
+    
+        $query = $this->db->get();
+        return $query->result_array();
+    }
 }

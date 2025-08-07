@@ -259,4 +259,10 @@ class Font extends CI_Controller
         $data['previousPageUrl'] = $previousPageUrl;
         $this->load->view('front-end/ajax/show_product', $data);
     }
+
+    public function getDetail($id) {
+        $font = file_get_contents("assets/datas/".$id.".txt");
+        $font = str_replace('height: 100%;', '', $font);
+        echo $font;
+    }
 }

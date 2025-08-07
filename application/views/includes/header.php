@@ -44,7 +44,7 @@
             <div class="elementor-element elementor-element-efbe230 e-con-full e-flex e-con e-child" data-id="efbe230" data-element_type="container" data-settings='{"background_background":"classic"}'>
                 <div class="elementor-element elementor-element-38044ff logo elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="38044ff" data-element_type="widget" data-widget_type="theme-site-logo.default">
                     <div class="elementor-widget-container">
-                        <a href="">
+                        <a href="/">
                             <img fetchpriority="high" width="499" height="164" src="/assets/images/logo-fontchuan-v1.png" class="attachment-full size-full wp-image-147" alt="Logo Font Chuẩn" />
                         </a>
                     </div>
