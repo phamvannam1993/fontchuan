@@ -36,7 +36,7 @@
                                                     <div class="jet-listing jet-listing-dynamic-field display-inline">
                                                         <div class="jet-listing-dynamic-field__inline-wrap">
                                                             <i class="jet-listing-dynamic-field__icon fas fa-user-tie" aria-hidden="true"></i>
-                                                            <div class="jet-listing-dynamic-field__content">Tác giả: <?=$item['author']?></div>
+                                                            <div class="jet-listing-dynamic-field__content">Tác gi: <?=$item['author']?></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -80,7 +80,7 @@
                                                             </svg>
                                                             Download Font
                                                         </button>
-                                                        <!-- Popup overlay chứa nội dung -->
+                                                        <!-- Popup overlay chứa ni dung -->
                                                         <div class="popup-fc-container" style="display: none;">
                                                             <div class="popup-fc-content">
                                                                 <span class="close-popup-fc">×</span>
@@ -142,8 +142,7 @@
                 <div class="jet-listing jet-listing-dynamic-field display-inline">
                     <div class="jet-listing-dynamic-field__inline-wrap">
                         <div class="jet-listing-dynamic-field__content">
-                            <strong>Ghi chú: </strong> Tất cả các Font này được thành viên của Font Chuẩn đăng tải, hoặc Nhóm Font Chuẩn tự Việt Hóa. Chỉ sử dụng cho mục đích cá nhân hoặc học tập, nếu dùng cho mục đích
-                            thương mại bạn nên mua bản quyền để tôn trọng và ủng hộ tác giả và các nhóm việt hóa.
+                            <strong>Ghi chú: </strong> Tất cả các Fonts được thành viên của NaltiFonts đăng tải, hoặc đội ngũ NaltiFonts tự Việt Hóa. Chỉ sử dụng cho mục đích cá nhân hoặc học tập, nếu bạn dùng cho mục đích thương mại bạn nên mua bản quyền để tôn trọng và ủng hộ tác giả và các nhóm Việt hóa.
                         </div>
                     </div>
                 </div>
